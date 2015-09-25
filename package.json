@@ -1,0 +1,39 @@
+{
+  "name": "esri-jasmine-node",
+  "version": "0.0.0",
+  "description": "grunt-contrib-jasmine template for ESRI JSAPI",
+  "homepage": "https://github.com/gisi/grunt",
+  "repository": "GISi/esri-jasmine-node",
+  "author": {
+    "name": "Ian Firkin",
+    "email": "ian.firkin@gisinc.com",
+    "url": "gisinc.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "ESRI",
+    "JSAPI",
+    "Jasmine",
+    "template",
+    "test"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-jscs": "^1.1.0",
+    "gulp-jshint": "^1.5.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5",
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
